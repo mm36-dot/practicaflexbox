@@ -2,13 +2,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:  rgba(162, 113, 207, 0.691);
+}
+
 .uno{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
-    background-color:  rgba(162, 113, 207, 0.691);
     padding: 15px;
     height: 650px;
 }
@@ -26,17 +28,22 @@ img{
 
 .shrek{
     order: 5;
+    align-self: center;
 }
 .burro{
-    order: 4;
+    order: 3;
+    align-self: center;
 }
 .fiona{
     order: 1;
+    align-self: stretch;
 }
 .gato{
     order: 2;
+    align-self: flex-end;
 }
 .pinocho{
     order: 4;
+    align-self: flex-start;
 }
 
