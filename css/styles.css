@@ -1,3 +1,17 @@
 *{
     box-sizing: border-box;
 }
+
+.uno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:  rgba(162, 113, 207, 0.691);
+    padding: 15px;
+    height: 650px;
+}
+
+.personaje{
+    
+}
